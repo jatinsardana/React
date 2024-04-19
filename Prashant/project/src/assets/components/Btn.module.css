@@ -1,0 +1,13 @@
+.btn{
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 70%;
+  background-color: aqua;
+  color: black;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+}

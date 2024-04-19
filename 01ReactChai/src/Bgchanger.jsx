@@ -8,7 +8,7 @@ function Bgchanger() {
     <>
     <div className='w-full h-screen' style={{backgroundColor:Color}}>
         <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
-            <div className="flex flex-wrap justify-center gap-3 px-3 m-1 bg-red-700 rounded-3xl">
+            <div className="flex flex-wrap justify-center gap-3 px-3 m-1 bg-red-600 rounded-3xl">
                 <button className=" outline-none px-4 mx-3 " onClick={()=>setColor("red")}>red</button>
             </div>
             <div className="flex flex-wrap justify-center gap-3 px-3 m-1 bg-green-500 rounded-3xl">

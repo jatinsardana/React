@@ -17,7 +17,7 @@ function Counter(){
 
     return(
         <>
-        <h1>Welcome to Club</h1>
+        <h1 className="text-red-500">Welcome to Club</h1>
         <h2>count value : {count} </h2>
         <button onClick={addval}>add value</button>
         <br /><br />
